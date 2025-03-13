@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body{
+    font-family: "Roboto", sans-serif !important;
+    /* font-size: 15px; */
+    /* line-height: 2em; */
+    color: #666;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.header{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+}
+.header .profile-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/picture.jpg');
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header .profile-img::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom,rgb(0 0 0 / 50%),rgb(21, 22, 24)) !important;
+}
+
+.header .content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10% 5%;
+}
+.header .content h1{
+    font-size: 36px;
+    /* color: white; */
+    line-height: 1;
+    margin: 0;
+} 
+.header .content h1 span{
+    color: transparent;
+    background: linear-gradient(90deg, #3a2d31,white,white,white, #49443a);
+    background-clip: text;
+}
+
+.header .content p{
+    margin-top: 10px;
+    font-size: 20px;
+    /* color: #ecdede; */
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(90deg, #3a2d31,white,white,white, #49443a);
+    background-clip: text;
+
+}
+.header .content .social-icon{
+    margin: 0;
+    padding: 0;
+    display: block; 
+}
+.header .content .social-icon li{
+    display: inline-block;
+    margin: 0 2px;
+}
+.header .content .social-icon li a{
+    display: block;
+    font-size: 20px;
+    color: rgb(184, 170, 170);
+    backdrop-filter: blur(20px);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 100%;
+}   
+.header .content .social-icon li:nth-child(3) > a{
+    background: linear-gradient(90deg, #df114f, #ca8c0e);
+    color: #fff;
+
+
+}
+.header .content .social-icon li a:hover{
+    color: #fff;
+    background: linear-gradient(90deg, #df114f, #ca8c0e);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+/* ///////////////////////////////// */
+.se-container{
+    background-image: url('../images/light-bulb-with-drawing-graph_1232-2105.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* .se-container .section: */
+section.about-section{
+    height: auto;
+    background-color: rgb(21, 22, 24);
+    color: #fff;
+    padding: 5% 5% 0 5%;
+    border-top: 1px solid rgb(21, 22, 24);
+
+}
+
+.header-text{
+    color: transparent;
+    background: linear-gradient(90deg, #df114f, #ca8c0e);
+    background-clip: text;
+}
+
+/* .se-container section.about-section h3::after{
+    content: '';
+    width: 50%;
+    display: block;
+    margin: 10px 0;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #df114f, #ca8c0e);
+    transition: 0.5s;
+    animation: about 1s linear;
+}
+@keyframes about{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+} */
+.g-text-reverse{
+    color: transparent;
+    background: linear-gradient(90deg,#d0db2c,#f02144);
+    background-clip: text;
+    font-size: x-large;
+}
+.content{
+    padding: 3% 0;
+}
+
+.text-header span{
+    /* text-shadow: 10px 10px 60px #f02144; */
+    font-weight: bold;
+    font-family: "Rowdies", sans-serif;
+    color: transparent;
+    background: linear-gradient(90deg, #3a2d31,white,white,white, #49443a);
+    background-clip: text;
+    font-size: 30px;
+}
+
+.content .content-header{
+    color: #777171;
+    /* font-family: "Passion One", sans-serif; */
+    /* font-family: "Black Ops One", system-ui; */
+    font-family: sans;
+    font-weight: 700;
+}
+
+.content-text{
+    color: #b4b2b2;
+    font-weight: 500;
+    font-family: sans;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+
+}
+.title{
+    color: #d3f1ea !important;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400 !important;
+    text-shadow: 1px 2px 3px black; 
+} 
+
+/* ////////////////////////////////////////////////////// */
+.expertise-section{
+    padding: 5% 5%;
+    height: auto;
+    /* background-color: rgba(21, 22, 24, 0.801); */
+    background: linear-gradient(#000000c5,#000000b7);
+
+}
+
+.expertise-section .expertise-card{
+    border: 1px solid #797676;
+    border-top-color: #ca8c0e;
+    border-top-width: 2px;
+    margin: 2% 0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    backdrop-filter: blur(10px);
+    color: white;
+    /* box-shadow:  1px 1px 125px 1px black; */
+}
+.expertise-section .expertise-card{
+    padding: 5% 5%;
+}
+.expertise-section .expertise-card .expertise-content h4{
+    color: transparent;
+    background: linear-gradient(90deg,#d0db2c,#e95c97);
+    background-clip: text;
+    display: inline-block;
+}
+.expertise-section .expertise-card .expertise-content p{
+    color: #c9b9b9;
+    font-family: sans;
+}
+/* ////////////////////////////////////////////////////////////// */
+.skill-section{
+    height: auto;
+    background-color: rgb(21, 22, 24);
+    color: #fff;
+    padding: 5% 5% 3% 5%;
+}
+.bar{
+    margin: 1.5% 0;
+}
+.bar-text{
+    color: #afaeae;
+    font-size: large;
+    text-shadow: 1px 2px 3px black;
+}
+.p-bar{
+    border: 1px solid white;
+    height: 2.7vh;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+}
+.p-bar-status{
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    width: 80%;
+    background: linear-gradient(90deg,#d0db2c,#e95c97);
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 5px 1px black;
+    color: black;
+}
+#hcb{
+    width: 80%;
+    animation: statusbar linear 1s;
+
+}
+
+#jp{
+    width: 90%;
+}
+#dr{
+    width: 70%;
+}
+#mysql{
+    width: 80%;
+}
+#ad{
+    width: 50%;
+}
+#dip{
+    width: 60%;
+}
+#ga{
+    width: 65%;
+}
+
+/* ////////////////////////////////////////////// */
+
+.project-section{
+    height: auto;
+    background-color: rgb(24, 26, 31);
+    padding: 5% 5% 0 5%;
+}
+
+.project-section .accordion-item{
+    margin: 1% 0;
+}
+
+.project-section .accordion-button{
+    background-color: rgb(21, 22, 24);
+    color: white;
+}
+.project-section .accordion-button::after{
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(184, 170, 170);
+    float: right; 
+}
+.project-section .accordion-body{
+    background-color: rgb(21, 22, 24);
+    color: white;
+    font-family: sans;
+}
+.project-section .accordion-body .h5{
+    font-weight: 700;
+    color: rgb(245, 247, 246);
+}
+.project-section .accordion-body .h6{
+    font-weight: bold;
+}
+.project-section .accordion-body .project-link{
+    text-decoration: none;
+}
+.project-section .accordion-body code{
+    color: transparent;
+    background: linear-gradient(90deg,#2cdbcc,#5ce986);
+    background-clip: text;
+}
+/* ///////////////////////////////////// */
+
+.portfolio-section {
+    margin: 5% 0;
+
+}
+/* ///////////////////////////////////// */
+
+.contact-section{
+    padding: 3% 0;
+}
+.contact-form{
+    padding: 5% 0;
+    background-color: rgb(32, 32, 32);
+    height: 100%;
+    border-radius: 10px;
+}
+.contact-section input,textarea{
+    padding: 2% 3%;
+    margin: 1% 0;
+    border-radius: 5px;
+    background-color: lightyellow;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: sans;
+
+
+}
+.contact-section input::placeholder{
+    color: black;
+}
+.submit{
+    background: linear-gradient(90deg, #df114f, #ca8c0e);
+    font-weight: bold;
+    font-family: sans;
+    font-size: large;
+    animation: blinkb linear infinite 1s;
+    transition: 1s;
+    color: white;
+}
+@keyframes blinkb {
+    from{
+        box-shadow: 1px 1px 90px 1px #df114f;
+    }
+    to{
+        box-shadow: 1px 1px 190px 1px #df114f;
+
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#df114f, #ca8c0e);
+    border-radius: 10px;
+}
+
+.scroll-ani{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+        /* transform: translateX(-100px); */
+        /* clip-path: inset( 100% 100% 0 0); */
+    }
+    to{
+        opacity: 1;
+        /* transform: translateX(0px); */
+        transform: scale(1);
+        /* clip-path: inset( 0 0 0 0); */
+}
