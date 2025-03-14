@@ -15,7 +15,7 @@ Here's your **updated** GitHub README with your correct **tech stack**:
 🔹 **Smooth Navigation** – Optimized for a seamless user experience  
 
 ## **🔗 Live Demo**  
-🎯 **Visit Here:** [Portfolio Website]((https://pavanpw.netlify.app/))  
+🎯 **Visit Here:** [Portfolio Website](https://pavanpw.netlify.app/)  
 
 
 ## **⚙️ Installation & Setup**  
