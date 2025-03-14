@@ -29,6 +29,6 @@ git clone https://github.com/Iam-Pavan/portfolio.git
 
 ## **📬 Connect With Me**  
 📧 Email: your- websitedev404@gmail.com  
-🔗 LinkedIn: [Your Profile](https://www.linkedin.com/in/elitepavan/) 
+🔗 LinkedIn: [My Profile](https://www.linkedin.com/in/elitepavan/) 
 
 
