@@ -10,6 +10,12 @@ body{
     font-weight: 400;
     background-color: #fff;
 }
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
 
 .header{
     padding: 0;
@@ -340,10 +346,13 @@ section.about-section{
     padding: 3% 0;
 }
 .contact-form{
-    padding: 5% 0;
+    padding: 5% 2%;
     background-color: rgb(32, 32, 32);
     height: 100%;
     border-radius: 10px;
+}
+.contact-form .star-shadow{
+    text-shadow: 1px 3px 30px yellow ;
 }
 .contact-section input,textarea{
     padding: 2% 3%;
