@@ -23,7 +23,7 @@ git clone https://github.com/Iam-Pavan/portfolio.git
 2️⃣ Open `index.html` in your browser  
 
 ## **💡 About Me**  
-🚀 Full Stack Developer | Python | Django | MySQL | React.js
+🚀 Full Stack Developer | Python | Django | MySQL | React.js <br>
 💡 Passionate about building user-friendly web experiences and building scalable web apps & innovative tech solutions
 
 
