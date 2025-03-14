@@ -3,7 +3,7 @@
 🚀 **Personal Portfolio** showcasing my skills, projects, and achievements in **Full Stack Development**  
 
 
-![Portfolio Screenshot](images/pw-img.png)
+![Portfolio Screenshot](assets/images/pw-img.png)
 
 ## **📌 Features**  
 🔹 **Modern UI/UX** – Sleek, responsive & fast-loading design  
