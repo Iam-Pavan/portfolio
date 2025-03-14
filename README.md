@@ -1,8 +1,5 @@
-Here's your **updated** GitHub README with your correct **tech stack**:  
-
----
-
 # **🌟 My Portfolio Website**  
+
 🚀 **Personal Portfolio** showcasing my skills, projects, and achievements in **Full Stack Development**  
 
 ![Portfolio Screenshot](https://your-image-link.com)
@@ -15,7 +12,7 @@ Here's your **updated** GitHub README with your correct **tech stack**:
 🔹 **Smooth Navigation** – Optimized for a seamless user experience  
 
 ## **🔗 Live Demo**  
-🎯 **Visit Here:** [Portfolio Website](https://pavanpw.netlify.app/)  
+<h1>🎯 **Visit Here:** [Portfolio Website](https://pavanpw.netlify.app/) </h1> 
 
 
 ## **⚙️ Installation & Setup**  
