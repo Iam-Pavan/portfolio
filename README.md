@@ -15,8 +15,8 @@ Here's your **updated** GitHub README with your correct **tech stack**:
 🔹 **Smooth Navigation** – Optimized for a seamless user experience  
 
 ## **🔗 Live Demo**  
-🎯 **Visit Here:** [Portfolio Website]([your-live-portfolio-link](https://pavanpw.netlify.app/))  
-🚀 **Live Demo:** [Click Here](https://trippigo.s3.ap-south-1.amazonaws.com/templates/index.html)
+🎯 **Visit Here:** [Portfolio Website]((https://pavanpw.netlify.app/))  
+
 
 ## **⚙️ Installation & Setup**  
 1️⃣ Clone the repository  
